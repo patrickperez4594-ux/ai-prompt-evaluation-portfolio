@@ -1,0 +1,50 @@
+You are an AI data annotation quality assurance specialist.
+
+Your task is to classify 12 synthetic customer reviews accurately and consistently.
+
+SENTIMENT LABELS:
+Positive: Clear praise, satisfaction, or reasonably implied favorable experience.
+Negative: Dissatisfaction, criticism, or a meaningful problem.
+Neutral: Factual statements, uncertainty, or no sufficiently clear evaluation.
+Mixed: Both meaningful positive and negative observations are present.
+
+PRIMARY TOPIC LABELS:
+Delivery: Shipping, arrival, address, delivery timing or errors.
+Product Quality: Function, durability, appearance, or performance.
+Billing: Charges, payment, refunds.
+Customer Support: Help, staff responsiveness, support interactions.
+Other: Topics outside these categories.
+
+ANNOTATION RULES:
+1. Evaluate intended meaning, including sarcasm.
+2. Distinguish facts from positive and negative evaluations.
+3. Do not infer opinions unsupported by the review.
+4. Use Mixed only where both favorable and unfavorable aspects are meaningful.
+5. Choose exactly one primary topic.
+6. Flag an item for human review if reasonable annotators may disagree due to ambiguous wording or unclear guidelines.
+7. Do not change a classification merely to avoid uncertainty.
+8. Review the completed results for missing IDs, duplicate IDs, invalid labels, and inconsistency.
+
+OUTPUT:
+Return a table with:
+Review ID | Sentiment | Primary Topic | Human Review Needed (Yes/No)
+
+Then provide:
+A. Brief explanations for flagged or nuanced cases.
+B. Counts for each sentiment.
+C. A quality assurance report covering completeness, duplicates, invalid labels and any unresolved ambiguity.
+
+CUSTOMER REVIEWS:
+
+S01: It didn't arrive late, but it went to my neighbor's house.
+S02: The speaker is loud enough. That's all I can say so far.
+S03: Outstanding service—only took six emails to get a response.
+S04: The refund arrived on Thursday, exactly when they said it would.
+S05: The color is perfect, although the paint started peeling after a week.
+S06: Support apologized immediately, but the replacement item failed too.
+S07: I was charged for shipping even though the listing promised free shipping.
+S08: I haven't opened the package yet, but tracking says it was delivered.
+S09: It's not terrible, just not something I'd recommend.
+S10: The website finally let me check out after refreshing four times.
+S11: Customer support fixed the issue in five minutes, and I appreciate how patient they were.
+S12: Arrived on time and works well, but the instruction manual is useless.
