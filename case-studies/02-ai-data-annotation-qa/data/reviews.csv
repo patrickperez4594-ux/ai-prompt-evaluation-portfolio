@@ -1,0 +1,25 @@
+dataset,review_id,review_text
+V1,R01,The package arrived two days earlier than expected.
+V1,R02,The charging cable stopped working after three days.
+V1,R03,My card was charged twice for one order.
+V1,R04,Support answered within ten minutes and solved my problem.
+V1,R05,The order was delivered on Tuesday.
+V1,R06,"The jacket looks fantastic, but the zipper broke on the first day."
+V1,R07,Wonderful. Another package delivered to the wrong address.
+V1,R08,"I haven't tested the blender yet, so I don't know if it works."
+V1,R09,"The refund was processed correctly, but it took three weeks."
+V1,R10,Nobody from support replied to my three messages.
+V1,R11,The keyboard works as advertised. Nothing special.
+V1,R12,The website's search feature makes it easy to find items.
+V2,S01,"It didn't arrive late, but it went to my neighbor's house."
+V2,S02,The speaker is loud enough. That's all I can say so far.
+V2,S03,Outstanding service—only took six emails to get a response.
+V2,S04,"The refund arrived on Thursday, exactly when they said it would."
+V2,S05,"The color is perfect, although the paint started peeling after a week."
+V2,S06,"Support apologized immediately, but the replacement item failed too."
+V2,S07,I was charged for shipping even though the listing promised free shipping.
+V2,S08,"I haven't opened the package yet, but tracking says it was delivered."
+V2,S09,"It's not terrible, just not something I'd recommend."
+V2,S10,The website finally let me check out after refreshing four times.
+V2,S11,"Customer support fixed the issue in five minutes, and I appreciate how patient they were."
+V2,S12,"Arrived on time and works well, but the instruction manual is useless."
