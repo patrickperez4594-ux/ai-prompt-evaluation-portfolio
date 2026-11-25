@@ -1,0 +1,73 @@
+dataset,prompt,review_id,predicted_sentiment,predicted_topic,human_review_flag,sentiment_matches_working_reference,topic_matches_working_reference
+V1,A,R01,Positive,Delivery,Not requested,Yes,Yes
+V1,A,R02,Negative,Product Quality,Not requested,Yes,Yes
+V1,A,R03,Negative,Billing,Not requested,Yes,Yes
+V1,A,R04,Positive,Customer Support,Not requested,Yes,Yes
+V1,A,R05,Neutral,Delivery,Not requested,Yes,Yes
+V1,A,R06,Mixed,Product Quality,Not requested,Yes,Yes
+V1,A,R07,Negative,Delivery,Not requested,Yes,Yes
+V1,A,R08,Neutral,Product Quality,Not requested,Yes,Yes
+V1,A,R09,Mixed,Billing,Not requested,Yes,Yes
+V1,A,R10,Negative,Customer Support,Not requested,Yes,Yes
+V1,A,R11,Neutral,Product Quality,Not requested,Yes,Yes
+V1,A,R12,Positive,Other,Not requested,Yes,Yes
+V1,B,R01,Positive,Delivery,Not requested,Yes,Yes
+V1,B,R02,Negative,Product Quality,Not requested,Yes,Yes
+V1,B,R03,Negative,Billing,Not requested,Yes,Yes
+V1,B,R04,Positive,Customer Support,Not requested,Yes,Yes
+V1,B,R05,Neutral,Delivery,Not requested,Yes,Yes
+V1,B,R06,Mixed,Product Quality,Not requested,Yes,Yes
+V1,B,R07,Negative,Delivery,Not requested,Yes,Yes
+V1,B,R08,Neutral,Product Quality,Not requested,Yes,Yes
+V1,B,R09,Mixed,Billing,Not requested,Yes,Yes
+V1,B,R10,Negative,Customer Support,Not requested,Yes,Yes
+V1,B,R11,Neutral,Product Quality,Not requested,Yes,Yes
+V1,B,R12,Positive,Other,Not requested,Yes,Yes
+V1,C,R01,Positive,Delivery,Yes,Yes,Yes
+V1,C,R02,Negative,Product Quality,No,Yes,Yes
+V1,C,R03,Negative,Billing,No,Yes,Yes
+V1,C,R04,Positive,Customer Support,No,Yes,Yes
+V1,C,R05,Neutral,Delivery,No,Yes,Yes
+V1,C,R06,Mixed,Product Quality,No,Yes,Yes
+V1,C,R07,Negative,Delivery,No,Yes,Yes
+V1,C,R08,Neutral,Product Quality,No,Yes,Yes
+V1,C,R09,Mixed,Billing,Yes,Yes,Yes
+V1,C,R10,Negative,Customer Support,No,Yes,Yes
+V1,C,R11,Neutral,Product Quality,Yes,Yes,Yes
+V1,C,R12,Positive,Other,No,Yes,Yes
+V2,A,S01,Negative,Delivery,Not requested,Yes,Yes
+V2,A,S02,Neutral,Product Quality,Not requested,Yes,Yes
+V2,A,S03,Negative,Customer Support,Not requested,Yes,Yes
+V2,A,S04,Positive,Billing,Not requested,No,Yes
+V2,A,S05,Mixed,Product Quality,Not requested,Yes,Yes
+V2,A,S06,Mixed,Customer Support,Not requested,No,Yes
+V2,A,S07,Negative,Billing,Not requested,Yes,Yes
+V2,A,S08,Neutral,Delivery,Not requested,Yes,Yes
+V2,A,S09,Negative,Other,Not requested,Yes,Yes
+V2,A,S10,Negative,Other,Not requested,Yes,Yes
+V2,A,S11,Positive,Customer Support,Not requested,Yes,Yes
+V2,A,S12,Mixed,Product Quality,Not requested,Yes,Yes
+V2,B,S01,Negative,Delivery,Not requested,Yes,Yes
+V2,B,S02,Neutral,Product Quality,Not requested,Yes,Yes
+V2,B,S03,Negative,Customer Support,Not requested,Yes,Yes
+V2,B,S04,Neutral,Billing,Not requested,Yes,Yes
+V2,B,S05,Mixed,Product Quality,Not requested,Yes,Yes
+V2,B,S06,Mixed,Customer Support,Not requested,No,Yes
+V2,B,S07,Negative,Billing,Not requested,Yes,Yes
+V2,B,S08,Neutral,Delivery,Not requested,Yes,Yes
+V2,B,S09,Negative,Other,Not requested,Yes,Yes
+V2,B,S10,Negative,Other,Not requested,Yes,Yes
+V2,B,S11,Positive,Customer Support,Not requested,Yes,Yes
+V2,B,S12,Mixed,Product Quality,Not requested,Yes,Yes
+V2,C,S01,Negative,Delivery,No,Yes,Yes
+V2,C,S02,Neutral,Product Quality,Yes,Yes,Yes
+V2,C,S03,Negative,Customer Support,No,Yes,Yes
+V2,C,S04,Neutral,Billing,Yes,Yes,Yes
+V2,C,S05,Mixed,Product Quality,No,Yes,Yes
+V2,C,S06,Mixed,Customer Support,Yes,No,Yes
+V2,C,S07,Negative,Billing,No,Yes,Yes
+V2,C,S08,Neutral,Delivery,No,Yes,Yes
+V2,C,S09,Negative,Other,No,Yes,Yes
+V2,C,S10,Negative,Other,No,Yes,Yes
+V2,C,S11,Positive,Customer Support,No,Yes,Yes
+V2,C,S12,Mixed,Product Quality,Yes,Yes,Yes
