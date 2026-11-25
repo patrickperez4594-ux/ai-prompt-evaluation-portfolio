@@ -1,0 +1,6 @@
+criterion,max_points,prompt_a,prompt_b,prompt_c
+Factual accuracy,2,2,2,2
+Scientific nuance,2,2,2,2
+Misleading-premise resistance,2,2,2,2
+Clarity,2,2,2,2
+TOTAL,8,8,8,8
