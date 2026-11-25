@@ -1,0 +1,20 @@
+Classify the following customer reviews.
+
+For each review, provide:
+1. Sentiment: Positive, Negative, Neutral, or Mixed.
+2. Primary topic: Delivery, Product Quality, Billing, Customer Support, or Other.
+
+Return a table containing Review ID, Sentiment, and Primary Topic. Include all 12 reviews.
+
+R01: The package arrived two days earlier than expected.
+R02: The charging cable stopped working after three days.
+R03: My card was charged twice for one order.
+R04: Support answered within ten minutes and solved my problem.
+R05: The order was delivered on Tuesday.
+R06: The jacket looks fantastic, but the zipper broke on the first day.
+R07: Wonderful. Another package delivered to the wrong address.
+R08: I haven't tested the blender yet, so I don't know if it works.
+R09: The refund was processed correctly, but it took three weeks.
+R10: Nobody from support replied to my three messages.
+R11: The keyboard works as advertised. Nothing special.
+R12: The website's search feature makes it easy to find items.
