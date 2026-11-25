@@ -1,0 +1,10 @@
+dataset,prompt,n_reviews,sentiment_matches,sentiment_agreement_percent,topic_matches,topic_agreement_percent,joint_matches,joint_agreement_percent
+V1,A,12,12,100.0,12,100.0,12,100.0
+V1,B,12,12,100.0,12,100.0,12,100.0
+V1,C,12,12,100.0,12,100.0,12,100.0
+V2,A,12,10,83.3,12,100.0,10,83.3
+V2,B,12,11,91.7,12,100.0,11,91.7
+V2,C,12,11,91.7,12,100.0,11,91.7
+Combined,A,24,22,91.7,24,100.0,22,91.7
+Combined,B,24,23,95.8,24,100.0,23,95.8
+Combined,C,24,23,95.8,24,100.0,23,95.8
