@@ -1,0 +1,43 @@
+You are a data annotation specialist evaluating customer reviews.
+
+Classify each review using these annotation guidelines.
+
+SENTIMENT LABELS:
+- Positive: Clearly expresses satisfaction or praise.
+- Negative: Clearly expresses dissatisfaction, a problem, or criticism.
+- Neutral: Factual information, uncertainty, or no clear positive or negative opinion.
+- Mixed: Both meaningful positive and negative aspects are present.
+
+IMPORTANT RULES:
+1. Interpret sarcasm based on the intended meaning, not just positive-sounding words.
+2. Distinguish facts from emotional evaluations.
+3. Use Mixed when both positive and negative observations are meaningful.
+4. Do not assume satisfaction or dissatisfaction when the review does not support it.
+5. Classify only what is stated or reasonably implied.
+
+PRIMARY TOPIC LABELS:
+- Delivery: Shipment, arrival, address, delivery problems.
+- Product Quality: Function, durability, physical appearance, performance.
+- Billing: Charges, refunds, payment issues.
+- Customer Support: Assistance, response times, service interactions.
+- Other: Subjects not covered by the other categories.
+
+OUTPUT FORMAT:
+Provide a table with Review ID, Sentiment, and Primary Topic.
+Include all 12 reviews, once each.
+After the table, briefly explain classifications that require nuanced interpretation.
+
+CUSTOMER REVIEWS:
+
+S01: It didn't arrive late, but it went to my neighbor's house.
+S02: The speaker is loud enough. That's all I can say so far.
+S03: Outstanding service—only took six emails to get a response.
+S04: The refund arrived on Thursday, exactly when they said it would.
+S05: The color is perfect, although the paint started peeling after a week.
+S06: Support apologized immediately, but the replacement item failed too.
+S07: I was charged for shipping even though the listing promised free shipping.
+S08: I haven't opened the package yet, but tracking says it was delivered.
+S09: It's not terrible, just not something I'd recommend.
+S10: The website finally let me check out after refreshing four times.
+S11: Customer support fixed the issue in five minutes, and I appreciate how patient they were.
+S12: Arrived on time and works well, but the instruction manual is useless.
