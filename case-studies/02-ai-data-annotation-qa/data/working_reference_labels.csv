@@ -1,0 +1,25 @@
+dataset,review_id,working_sentiment,working_topic,sentiment_status,topic_status,notes
+V1,R01,Positive,Delivery,provisional,provisional,Interpretation explicitly identified as ambiguous; requires independent adjudication before gold-standard claim.
+V1,R02,Negative,Product Quality,provisional,provisional,
+V1,R03,Negative,Billing,provisional,provisional,
+V1,R04,Positive,Customer Support,provisional,provisional,
+V1,R05,Neutral,Delivery,provisional,provisional,
+V1,R06,Mixed,Product Quality,provisional,provisional,
+V1,R07,Negative,Delivery,provisional,provisional,
+V1,R08,Neutral,Product Quality,provisional,provisional,
+V1,R09,Mixed,Billing,provisional,provisional,Interpretation explicitly identified as ambiguous; requires independent adjudication before gold-standard claim.
+V1,R10,Negative,Customer Support,provisional,provisional,
+V1,R11,Neutral,Product Quality,provisional,provisional,Interpretation explicitly identified as ambiguous; requires independent adjudication before gold-standard claim.
+V1,R12,Positive,Other,provisional,provisional,
+V2,S01,Negative,Delivery,provisional,provisional,
+V2,S02,Neutral,Product Quality,provisional,provisional,Interpretation explicitly identified as ambiguous; requires independent adjudication before gold-standard claim.
+V2,S03,Negative,Customer Support,provisional,provisional,
+V2,S04,Neutral,Billing,provisional,provisional,Interpretation explicitly identified as ambiguous; requires independent adjudication before gold-standard claim.
+V2,S05,Mixed,Product Quality,provisional,provisional,
+V2,S06,Negative,Customer Support,author_adjudicated,provisional,Sentiment Negative confirmed by portfolio author; Customer Support topic still provisional and disputable vs Product Quality.
+V2,S07,Negative,Billing,provisional,provisional,
+V2,S08,Neutral,Delivery,provisional,provisional,
+V2,S09,Negative,Other,provisional,provisional,Other primary topic is provisional; Product Quality is a possible alternative.
+V2,S10,Negative,Other,provisional,provisional,Other primary topic is provisional; Billing may be argued for checkout issues.
+V2,S11,Positive,Customer Support,provisional,provisional,
+V2,S12,Mixed,Product Quality,provisional,provisional,Interpretation explicitly identified as ambiguous; requires independent adjudication before gold-standard claim.
